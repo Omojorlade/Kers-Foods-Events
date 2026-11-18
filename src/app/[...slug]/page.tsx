@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function PlannedPage(){return <main className="container" style={{padding:'90px 0',minHeight:'60vh',textAlign:'center'}}><p style={{color:'#966e2e',fontWeight:700}}>KERS FOODS & EVENTS</p><h1 style={{fontFamily:'Georgia, serif',fontSize:'clamp(32px,5vw,52px)',color:'#103f32'}}>This page is being designed</h1><p>This is a placeholder for a planned MVP page. Ordering and enquiries are not active yet.</p><div style={{marginTop:28}}><Link href="/" className="button button-dark">Return Home</Link></div></main>}
